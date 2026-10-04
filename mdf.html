@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>MDF | SAZARO</title>
+  <meta
+    name="description"
+    content="Explore MDF products from SAZARO by STS Enterprises."
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+
+      <a class="brand" href="index.html" aria-label="SAZARO home">
+        <span class="brand__name">SAZARO</span>
+        <span class="brand__sub">BY STS ENTERPRISES</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a class="is-active" href="products.html">Products</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        data-menu-toggle
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+
+    <nav
+      class="mobile-menu"
+      id="mobile-menu"
+      data-mobile-menu
+      aria-label="Mobile navigation"
+      aria-hidden="true"
+    >
+      <a href="index.html">Home</a>
+      <a class="is-active" href="products.html">Products</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <section class="page-hero">
+      <div class="container page-hero__inner">
+        <p class="eyebrow">02 / MDF</p>
+
+        <h1>MDF products with a simple, versatile finish.</h1>
+
+        <p>
+          Explore our MDF range for décor, gifting, display and other
+          practical or creative uses.
+        </p>
+      </div>
+    </section>
+
+
+    <section class="section">
+      <div class="container">
+
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">COLLECTION</p>
+            <h2>MDF</h2>
+          </div>
+
+          <p>
+            Browse the current MDF collection. Product information can be
+            updated centrally as new designs are added.
+          </p>
+        </div>
+
+        <div
+          class="product-grid"
+          id="category-products"
+          data-category="mdf"
+        >
+          <!-- Products are rendered by app.js -->
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="section section--muted">
+      <div class="container">
+
+        <div class="statement">
+          <p class="eyebrow">SAZARO / DETAILS</p>
+
+          <h2>
+            Simple materials. Thoughtful products.
+          </h2>
+
+          <p>
+            Our goal is to present useful and decorative products clearly,
+            package them carefully and keep the buying experience
+            straightforward.
+          </p>
+
+          <div class="statement__actions">
+            <a class="button button--primary" href="products.html">
+              View all products
+            </a>
+
+            <a class="text-link text-link--large" href="contact.html">
+              Contact STS Enterprises
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="container">
+
+      <div class="site-footer__grid">
+
+        <div>
+          <a class="brand brand--footer" href="index.html">
+            <span class="brand__name">SAZARO</span>
+            <span class="brand__sub">BY STS ENTERPRISES</span>
+          </a>
+
+          <p class="site-footer__text">
+            Quality-focused products, careful packing and clear customer service.
+          </p>
+        </div>
+
+        <div>
+          <p class="footer-heading">Explore</p>
+
+          <div class="footer-links">
+            <a href="products.html">All Products</a>
+            <a href="led-acrylic.html">LED Acrylic</a>
+            <a href="mdf.html">MDF</a>
+            <a href="customisable.html">Customisable</a>
+          </div>
+        </div>
+
+        <div>
+          <p class="footer-heading">Company</p>
+
+          <div class="footer-links">
+            <a href="about.html">About</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+
+        <div>
+          <p class="footer-heading">Contact</p>
+
+          <div class="footer-links">
+            <span>STS Enterprises</span>
+            <span>Email: add-email-here</span>
+            <span>Phone: add-phone-here</span>
+            <span>India</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="site-footer__bottom">
+        <span>© <span data-current-year></span> STS Enterprises. All rights reserved.</span>
+        <span>SAZARO</span>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <script src="js/products.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>
