@@ -1,0 +1,1 @@
+#MDF product images placeholder
