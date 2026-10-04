@@ -1,0 +1,1 @@
+# Custum Product images placeholder
